@@ -458,7 +458,7 @@ Like, if the screen is shrunk below 1000 px, the buttons change orientation and 
     height: 15px;
     padding-bottom: 5px;
     font-size: clamp(9px, 1.2vw, 20px);
-    color: #1c2b42dd;
+    color: #ffffffcc;
     display: flex;
     justify-content: center;
     align-items: center;
