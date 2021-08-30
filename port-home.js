@@ -15,6 +15,8 @@ let bDiv2 = document.querySelector('.b-div1');
 let bDiv3 = document.querySelector('.b-div3');
 let bDiv4 = document.querySelector('.b-div4');
 
+let footerMenuOp = document.querySelectorAll('.footer-menu-op');
+
 
 let bubbleRowStyle = window.getComputedStyle(bubbleRow, null)
 let bubbleRowHeight = bubbleRowStyle.getPropertyValue("height");
@@ -157,8 +159,14 @@ for(let i = 0; i < ulDropDown.length; i++) {
 
 
 
+// the code below is to change the transition tim eon the footer elements
 
 
+for(let i = 0; i < footerMenuOp.length; i++) {
+  footerMenuOp[i].addEventListener('mouseover', function(){
+      footerMenuOp[i].style.transition = 'all .2s ease';
+  })  
+}
 
 
 
