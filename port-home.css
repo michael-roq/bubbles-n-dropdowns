@@ -307,7 +307,7 @@ Like, if the screen is shrunk below 1000 px, the buttons change orientation and 
 }
 
 .bubble-div:hover {
-    border: 5px solid #eee ;
+    border: 5px solid #333 ;
     background-color: #1c2b4288;
 }
 
@@ -355,54 +355,63 @@ Like, if the screen is shrunk below 1000 px, the buttons change orientation and 
 
 .icon {
 
-    width: clamp(10px, 6vw, 20px);
-    height: clamp(10px, 6vw, 20px);
+    width: clamp(10px, 7vw, 25px);
+    height: clamp(10px, 7vw, 25px);
     background-size: cover;
     transition: all .1s;
 }
 
 .icon1 {
-    background-image: url('./icons/linkedin-blue-icon.png');
-    opacity: .8;
+    /* background-image: url('./icons/linkedin-blue-icon.png'); */
+    background-image: url('./icons/linkedin-white-icon.png');
+    opacity: .6;
+    border-radius: 8px;
 }
 
 .icon1:hover {
     cursor: pointer;
     background-image: url('./icons/linkedin-white-icon.png');
     opacity: 1;
+    background-color: #1c2b4288;
 }
 
 .icon2 {
-    background-image: url('./icons/github-blue-icon.png');
-    opacity: .8;
+    background-image: url('./icons/github-white-icon.png');
+    opacity: .6;
+    border-radius: 8px;
 }
 
 .icon2:hover {
     background-image: url('./icons/github-white-icon.png');
     cursor: pointer;
     opacity: 1;
+    background-color: #1c2b4288;
 }
 
 .icon3 {
-    background-image: url('./icons/instagram-blue-icon.png');
-    opacity: .8;
+    background-image: url('./icons/instagram-2-white-icon.png');
+    opacity: .6;
+    border-radius: 8px;
 }
 
 .icon3:hover {
-    background-image: url('./icons/instagram-white-icon.png');
+    background-image: url('./icons/instagram-2-white-icon.png');
     opacity: 1;
     cursor: pointer;
+    background-color: #1c2b4288;
 }
 
 .icon4 {
-    background-image: url('./icons/twitter-blue-icon.png');
-    opacity: .8;
+    background-image: url('./icons/twitter-white-icon.png');
+    opacity: .6;
+    border-radius: 8px;
 }
 
 .icon4:hover {
     background-image: url('./icons/twitter-white-icon.png');
     cursor: pointer;
     opacity: 1;
+    background-color: #1c2b4288;
 }
 
 
@@ -430,6 +439,7 @@ Like, if the screen is shrunk below 1000 px, the buttons change orientation and 
     font-family: 'Overpass', sans-serif;
     font-weight: bolder;
     color: #1c2b42dd;
+    text-shadow: 1px 1px 2px #aaaaaa88;
     transition: all .2s ease;
     font-weight: normal;
     text-decoration: none;
@@ -458,7 +468,8 @@ Like, if the screen is shrunk below 1000 px, the buttons change orientation and 
     height: 15px;
     padding-bottom: 5px;
     font-size: clamp(9px, 1.2vw, 20px);
-    color: #ffffffcc;
+    color: #ffffffaa;
+    text-shadow: 1px 1px 2px #00000088;
     display: flex;
     justify-content: center;
     align-items: center;
